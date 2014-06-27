@@ -1,0 +1,29 @@
+{
+  "name": "cancel-group",
+  "version": "0.0.0",
+  "description": "Queue up a list of cancellation functions to be called at later time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaz303/cancel-group.git"
+  },
+  "keywords": [
+    "cancel",
+    "function",
+    "queue",
+    "callback",
+    "events"
+  ],
+  "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaz303/cancel-group/issues"
+  },
+  "homepage": "https://github.com/jaz303/cancel-group",
+  "devDependencies": {
+    "tape": "~2.13.3"
+  }
+}
