@@ -4,7 +4,7 @@
   "description": "Queue up a list of cancellation functions to be called at later time",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "repository": {
     "type": "git",
